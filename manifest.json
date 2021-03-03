@@ -2,7 +2,7 @@
   "name": "FL Wiki Redirector",
   "author": "Alan Huang",
   "version": "1.4.1",
-  "description": "Redirects Fallen London Wikia/Fandom requests to the Fallen London Wiki, as well as removes Fallen London Wikia/Fandom search results from Google.",
+  "description": "Redirects Fallen London Wikia/Fandom requests, and removes Fallen London Wikia/Fandom search results from Google.",
   "permissions": ["storage",
                   "*://fallenlondon.wikia.com/*",
                   "*://fallenlondon.fandom.com/*",
