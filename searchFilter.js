@@ -17,7 +17,7 @@
             removedElement.innerHTML="Elder Scrolls Wikia search result removed by UESP Wiki Redirector."
             removedElement.style.paddingBottom="1em";
             removedElement.style.display="inline-block";
-            element.parentElement.appendChild(removedElement);
+            element.parentNode.insertBefore(removedElement, element);
             //remove the element.
             element.remove();
           } else {
