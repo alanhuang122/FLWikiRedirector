@@ -22,7 +22,7 @@
       if (!isWikia) return;
 
       // Generate new url
-      const redirectUrl = `https://fallenlondon.wiki${url.pathname.replace(/^\/wiki\//i,"/w/")}`; // Create the redirect URL
+      const redirectUrl = `https://fallenlondon.wiki${url.pathname}`; // Create the redirect URL
       console.log(`FLWikia intercepted:  ${info.url}\nRedirecting to ${redirectUrl}`); 
       // Redirect the old wikia request to new wiki
       chrome.tabs.update(info.tabId,{url:redirectUrl});
