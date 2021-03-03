@@ -1,5 +1,5 @@
-# UESP Wiki Redirector
-Redirects Elder Scrolls Wikia/Fandom links to the Unofficial Elder Scrolls Pages wiki
+# FL Wiki Redirector
+Redirects Fallen London Wikia/Fandom links to the Fallen London Wiki
 
 Chrome extension can be found [here](https://chrome.google.com/webstore/detail/uesp-wiki-redirector/pmpmohopeeclfnlhpmaipopinoicdkod).
 
