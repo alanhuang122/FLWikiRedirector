@@ -1,21 +1,18 @@
 {
-  "name": "RS Wiki Redirector",
-  "author": "proEndreeper",
+  "name": "FL Wiki Redirector",
+  "author": "Alan Huang",
   "version": "1.4.1",
-  "description": "Redirects RS Wikia/Fandom requests to RS Wiki, as well as removes RS Wikia/Fandom search results from Google.",
+  "description": "Redirects Fallen London Wikia/Fandom requests to the Fallen London Wiki, as well as removes Fallen London Wikia/Fandom search results from Google.",
   "permissions": ["storage",
-                  "*://oldschoolrunescape.wikia.com/*",
-                  "*://runescape.wikia.com/*",
-                  "*://oldschoolrunescape.fandom.com/*",
-                  "*://runescape.fandom.com/*",
-                  "*://runescapeclassic.fandom.com/*",
+                  "*://fallenlondon.wikia.com/*",
+                  "*://fallenlondon.fandom.com/*",
                   "webNavigation",
                   "tabs"
                  ],
 
   "applications": {
     "gecko" : {
-      "id": "{c3cc188f-ea35-4519-a09c-72e8f06b5d11}"
+      "id": "{bea5db44-d328-436c-ba2e-b9077bda3cc6}"
     }
   },
 
@@ -26,7 +23,7 @@
 
   "browser_action": {
     "default_icon": "icon32.png",
-    "default_title": "RS Wiki Redirector",
+    "default_title": "FL Wiki Redirector",
     "default_popup": "popup.html"
   },
 
