@@ -10,12 +10,6 @@
                   "tabs"
                  ],
 
-  "applications": {
-    "gecko" : {
-      "id": "{bea5db44-d328-436c-ba2e-b9077bda3cc6}"
-    }
-  },
-
   "background": {
     "scripts": ["background.js"],
     "persistent": true
