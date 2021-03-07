@@ -14,10 +14,10 @@ storage.onChanged.addListener(
     if(changes["isDisabled"]!==undefined && changes["isDisabled"].newValue!=changes["isDisabled"].oldValue) {
       console.log(`FL Wiki Redirector is now ${changes["isDisabled"].newValue?'disabled':'enabled'}`);
       if(changes["isDisabled"].newValue) {
-        declarativeNetRequest.updateEnabledRulesets({"disableRulesetIds": ["fandom_rule"]});
+        chrome.declarativeNetRequest.updateEnabledRulesets({"disableRulesetIds": ["fandom_rule"]});
       }
       else {
-        declarativeNetRequest.updateEnabledRulesets({"enableRulesetIds": ["fandom_rule"]});
+        chrome.declarativeNetRequest.updateEnabledRulesets({"enableRulesetIds": ["fandom_rule"]});
       }
       updateIcon();
     }
