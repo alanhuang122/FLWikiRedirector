@@ -12,7 +12,7 @@
     },
     "condition": {
         "isUrlFilterCaseSensitive": false,
-        "regexFilter": ".*fallenlondon\.(wikia|fandom)\.com.*",
+        "regexFilter": ".*fallenlondon\\.(wikia|fandom)\\.com.*",
         "resourceTypes": ["main_frame"]
     }
 }
