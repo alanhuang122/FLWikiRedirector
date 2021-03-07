@@ -30,7 +30,7 @@
 
   function updateIcon(){
     // Change the icon to match the state of the plugin.
-    chrome.browserAction.setIcon({ path: isPluginDisabled?"icon32_black.png":"icon32.png"  });
+    chrome.browserAction.setIcon({ path: isPluginDisabled?"icon32_disabled.png":"icon32.png"  });
   }
 
   storage.local.get(['isDisabled'],(result)=>{
