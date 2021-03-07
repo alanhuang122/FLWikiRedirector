@@ -3,19 +3,29 @@
   "author": "Alan Huang",
   "version": "1.4.1",
   "description": "Redirects Fallen London Wikia/Fandom requests, and removes Fallen London Wikia/Fandom search results from Google.",
-  "permissions": ["storage",
-                  "*://fallenlondon.wikia.com/*",
-                  "*://fallenlondon.fandom.com/*",
-                  "webNavigation",
-                  "tabs"
-                 ],
-
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": true
+  "declarativeNetRequest": {
+      "rule_resources": [{
+          "id": "fandom_rule",
+          "enabled": true,
+          "path": "fandom_rule.json"
+      }]
   },
 
-  "browser_action": {
+  "permissions": [
+      "storage",
+      "declarativeNetRequest"
+  ],
+  
+  "host_permissions": [
+      "*://fallenlondon.wikia.com/*",
+      "*://fallenlondon.fandom.com/*"
+  ],
+  
+  "background": {
+      "service_worker": "background.js"
+  },
+
+  "action": {
     "default_icon": "icon32.png",
     "default_title": "FL Wiki Redirector",
     "default_popup": "popup.html"
@@ -63,5 +73,5 @@
   	"128": "icon128.png"
   },
 
-  "manifest_version": 2
+  "manifest_version": 3
 }

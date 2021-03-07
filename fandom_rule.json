@@ -1,0 +1,19 @@
+{
+    "id": "fandom_rule",
+    "priority": 1,
+    "action": {
+        "type": "redirect",
+        "redirect": {
+            "transform": {
+                "scheme": "https",
+                "host": "fallenlondon.wiki"
+            }
+        }
+    },
+    "condition": {
+        "isUrlFilterCaseSensitive": false,
+        "regexFilter": ".*fallenlondon\.(wikia|fandom)\.com.*",
+        "resourceTypes": ["main_frame"]
+    }
+}
+                
