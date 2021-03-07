@@ -3,7 +3,7 @@
   "author": "Alan Huang",
   "version": "1.4.1",
   "description": "Redirects Fallen London Wikia/Fandom requests, and removes Fallen London Wikia/Fandom search results from Google.",
-  "declarativeNetRequest": {
+  "declarative_net_request": {
       "rule_resources": [{
           "id": "fandom_rule",
           "enabled": true,
