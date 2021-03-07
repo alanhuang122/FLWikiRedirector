@@ -1,4 +1,4 @@
-let storage = window.storage || chrome.storage; // Make sure we have a storage API.
+let storage = chrome.storage; // Make sure we have a storage API.
 
 function updateIcon(){
   storage.local.get(['isDisabled'],(result)=>{

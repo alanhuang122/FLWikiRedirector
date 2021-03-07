@@ -1,5 +1,5 @@
 (function () {
-	let storage = window.storage || chrome.storage;
+	let storage = chrome.storage;
 	let stateImage = document.getElementById("addonStateImage");
 
 	if (stateImage === null) {

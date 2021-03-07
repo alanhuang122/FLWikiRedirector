@@ -1,5 +1,5 @@
 (function() {
-  const storage = window.storage || chrome.storage;
+  const storage = chrome.storage;
 
   // Check if hiding wikia results is enabled.
   storage.local.get(['hideWikia'], (result) => {
