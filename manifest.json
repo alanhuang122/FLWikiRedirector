@@ -1,7 +1,7 @@
 {
-  "name": "FL Wiki Redirector",
+  "name": "Fallen London Wiki Redirector",
   "author": "Alan Huang",
-  "version": "1.4.1",
+  "version": "1.4.3",
   "description": "Redirects Fallen London Wikia/Fandom requests, and removes Fallen London Wikia/Fandom search results from Google.",
   "permissions": ["storage",
                   "*://fallenlondon.wikia.com/*",
@@ -9,6 +9,12 @@
                   "webNavigation",
                   "tabs"
                  ],
+  "browser_specific_settings": {
+      "gecko": {
+          "id": "{5f5950be-7601-4d7e-9971-a2e5c856ffdc}",
+          "strict_min_version": "57.0"
+      }
+  },
 
   "background": {
     "scripts": ["background.js"],
@@ -17,7 +23,7 @@
 
   "browser_action": {
     "default_icon": "icon32.png",
-    "default_title": "FL Wiki Redirector",
+    "default_title": "Fallen London Wiki Redirector",
     "default_popup": "popup.html"
   },
 

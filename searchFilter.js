@@ -14,7 +14,7 @@
             // Add an element in place of the removed search result signifying a result was removed.
             var removedElement = document.createElement("span");
             removedElement.classList.add("st");
-            removedElement.innerHTML="Fallen London Wikia search result removed by FL Wiki Redirector."
+            removedElement.innerHTML="Fallen London Wikia search result removed by Fallen London Wiki Redirector."
             removedElement.style.paddingBottom="1em";
             removedElement.style.display="inline-block";
             element.parentNode.insertBefore(removedElement, element);
