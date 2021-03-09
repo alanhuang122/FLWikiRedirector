@@ -1,7 +1,7 @@
 {
-  "name": "FL Wiki Redirector",
+  "name": "Fallen London Wiki Redirector",
   "author": "Alan Huang",
-  "version": "1.4.1",
+  "version": "1.4.3",
   "description": "Redirects Fallen London Wikia/Fandom requests, and removes Fallen London Wikia/Fandom search results from Google.",
   "declarative_net_request": {
       "rule_resources": [{
@@ -27,7 +27,7 @@
 
   "action": {
     "default_icon": "icon32.png",
-    "default_title": "FL Wiki Redirector",
+    "default_title": "Fallen London Wiki Redirector",
     "default_popup": "popup.html"
   },
 
