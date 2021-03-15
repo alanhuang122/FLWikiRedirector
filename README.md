@@ -1,7 +1,7 @@
 # Fallen London Wiki Redirector
 Redirects Fallen London Wikia/Fandom links to the Fallen London Wiki
 
-Chrome extension can be found here (TBD).
+Chrome extension can be found here [here](https://chrome.google.com/webstore/detail/fl-wiki-redirector/jnpmlogkiokkkeikkebegmefeckladpj).
 
 Firefox extension can be found [here](https://addons.mozilla.org/en-US/firefox/addon/fl-wiki-redirector/).
 
