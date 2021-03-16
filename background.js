@@ -23,3 +23,5 @@ storage.onChanged.addListener(
     }
   }
 );
+
+updateIcon();
